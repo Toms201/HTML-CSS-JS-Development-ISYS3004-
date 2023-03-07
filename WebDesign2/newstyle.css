@@ -116,6 +116,7 @@ https://internetingishard.com/html-and-css/floats/
 #extras {
     float: right;
     width: 20%;
+    align-content: center;
 }
 
 #extras h2 {
