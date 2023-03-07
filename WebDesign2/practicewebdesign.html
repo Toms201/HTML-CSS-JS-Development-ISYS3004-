@@ -1,0 +1,52 @@
+<!-- Determine the type of document-->
+<!DOCTYPE html>
+<!-- Set html language to english -->
+<html lang="en">
+
+<!-- Refers to the head of the code, not the document-->
+<head>
+    <!-- specify charecter encoding for the page-->
+    <meta charset="UTF-8">
+    <!-- specify title for the webpage-->
+    <title>My Test Page</title>
+    <!-- link to external CSS Sheet-->
+    <link rel="Stylesheet"
+        type="text/CSS"
+        href="samplestyle.css"
+    />
+</head>
+<body>
+    <header>
+        <!-- h1 refers to a large primary header -->
+       <h1>Website Design Sample</h1> 
+       <nav> <!-- Set Up navigation strip-->
+            <a href="#About">About</a> <!-- the a tag defines a hyperlink, the href attribute indicates the ljnks destination-->
+            <a href="#Design">Design</a>
+            <a href="#Layout">Layout</a>
+       </nav>
+    </header>
+
+<section id="About"> <!-- Define the section with an ID to refer to for nav-->
+    <h2>About</h2> <!-- h2 is a less important heading, could be catagorised by google-->
+    <p>This is the <em>about</em> section of the website</p> <!-- P is a paragraph, em is for emphasis (Could use decoration in CSS for whole paragraph style)-->
+</section> <!-- end section-->
+
+<section id="Design">
+    <h2>Design</h2>
+    <p>This is the <em>Design</em> section of the website</p>
+</section>
+
+<section id="Layout">
+    <h2>Layout</h2>
+    <p> This is the <em>Layout</em> section of the website</p>
+</section>
+
+<footer> <!-- The rel attribute specifies the relationship between the current document and the linked document. Only used if the href attribute is present. Has a set list of potential tags-->
+    <a rel="License" href="http://creativecommons.org/licenses/by/4.0/"><img
+    alt="Creative Commons License" style="border-width: 0;" 
+    src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a><br /> This work is liscenced under a <br /> <!-- src is the image link -->
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"> <!-- img is the image itself-->
+    Creative Commons Attribution 4.0 International License</a>
+    </a>
+</footer>
+</body>
