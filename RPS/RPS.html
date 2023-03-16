@@ -14,7 +14,25 @@
     <span class="circle">P</span> 
     <span class="circle">S</span>
     </p>
-  <a class="instruction" href="#">RULES</a>
+  <a href="#">RULES</a>
+  <script>
+    /* This is a simplified version of the game.
+    The Computer ALWAYS picks ROCK.  
+    Does the user's choose win,lose, or tie vs ROCK? */
+    function play(user) {
+    let result = "";
+    if (user === 'rock') {
+        result = "tie";
+    }
+    if (user === 'paper') {
+        result = "win";
+    }
+    if (user === 'scissors') {
+        result = "lose";
+    }
+    alert("Computer chose rock, you " + result + "!");
+    }
+  </script>
 </body>
 
 </html>
