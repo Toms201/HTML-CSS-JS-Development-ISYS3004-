@@ -4,7 +4,10 @@ var square = document.getElementById('square');
         square.style.background = colour;
     }
 
-
+function clicked() {
+    var message = "Build a <br>" + createBuzzwordPhrase();
+    words.innerHTML = msg;
+}
 
 square.addEventListener('click', (event) => changeColour('green'));
 
