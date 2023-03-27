@@ -3,6 +3,8 @@ var square = document.getElementById('square');
         square.style.background = colour;
     }
 
+
+
 square.addEventListener('click', (event) => changeColour('green'));
 
 square.addEventListener('mouseover', (event) => changeColour('grey'));
@@ -21,4 +23,4 @@ function createBuzzwordPhrase() {
     return  buzz[idx_buz] + " " + action[idx_act] + " " + outcome[idx_out];
 }
 
-console.log(createBuzzwordPhrase)
+console.log(createBuzzwordPhrase () )
