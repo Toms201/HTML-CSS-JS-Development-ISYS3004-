@@ -5,7 +5,7 @@ var square = document.getElementById('square');
     }
 
 function clicked() {
-    words.innerHTML = = "Build a <br>" + createBuzzwordPhrase();
+    words.innerHTML = "Build a <br>" + createBuzzwordPhrase();
 }
 
 square.addEventListener('click', (event) => changeColour('green'));
